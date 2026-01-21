@@ -38,6 +38,7 @@ SELECT
 	c.Region,
 	a.ProductID,
 	a.OrderDate,
+	DATEADD(WEEK, DATEDIFF(WEEK, 0, a.OrderDate), 0) AS WeekDate,
 	c.CustomerJoinDate,
 	a.Quantity,
 	a.Revenue,
