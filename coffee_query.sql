@@ -43,6 +43,7 @@ SELECT
 	a.Quantity,
 	a.Revenue,
 	ROUND(CASE WHEN a.Revenue IS NULL THEN p.Price * a.Quantity ELSE a.Revenue END, 2) AS UpdatedRevenue,
+	a.Revenue - a.COGS AS Profit,
 	a.COGS,
 	p.ProductName,
 	p.ProductCategory,
@@ -53,3 +54,4 @@ JOIN Customers c
 	ON a.CustomerID = c.CustomerID
 LEFT JOIN products p
 	ON a.ProductID = p.ProductID;
+
