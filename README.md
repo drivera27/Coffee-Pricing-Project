@@ -36,7 +36,9 @@ Most of these are merchandise products, which only made up for **7% of 2025's to
 * **Discontinue *Logo Hoodie (Black)*:** Orders are down 35% from 2023, and have held consistently weak margins - as low as 12% as of 2025. Due to weak sales and rising costs, it may be best to discontinue this product.
 
 ### Dashboard Preview
-The complete dashboard can be found [here](https://github.com/drivera27/Coffee-Pricing-Project/blob/2cb0d2962782c435a2c07f422881b1c6648a646f/sales_dashboard_updated.pbix).
-This dashboard, created in PowerBI, enables users to filter by year and quarter, while focusing on KPI trends like revenue and profit. These metrics are then broken down by product, product category, and region.
+The complete dashboard, created in PowerBI, can be found [here](https://github.com/drivera27/Coffee-Pricing-Project/blob/2cb0d2962782c435a2c07f422881b1c6648a646f/sales_dashboard_updated.pbix).
+This dashboard enables users to filter by year and quarter, while focusing on KPI trends like revenue and profit. These metrics are then broken down by product, product category, and region.
+
+<img width="826" height="460" alt="Screenshot 2026-01-31 214127" src="https://github.com/user-attachments/assets/64757e85-28a4-4591-b990-a2e9f9f59145" />
 
 ## Caveats and Assumptions
