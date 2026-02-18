@@ -11,7 +11,7 @@ This project is based on a fictional online business, The Daily Grind, that sell
 
 The dataset contains 5 tables, including product details, information on customers, and orders placed from 2023-2025.
 
-The tables were relatively tidy and required minimal cleaning. Some orders had null values for revenue, but because of the existing `Price` and `Quantity` columns, I was able to create a new column in SQL and recalculate the revenue.
+The tables were relatively tidy and required minimal cleaning. However, some orders had null values for revenue. I was able to clean the data and fill in any missing revenue values by calculating it in SQL using the existing `Price` and `Quantity` columns.
 
 Files including the original data and modifications made can be found [here](https://github.com/drivera27/Coffee-Pricing-Project/tree/b58762adf190c7f360547d256b55b54e9fe3ed19/data).
 The SQL queries used to pull from these tables can be found [here](https://github.com/drivera27/Coffee-Pricing-Project/blob/b58762adf190c7f360547d256b55b54e9fe3ed19/coffee_query.sql).
@@ -44,7 +44,7 @@ To evaluate sales performance and assess pricing, I focused on the following met
 Most of these are merchandise products, which only made up for 7% of 2025 revenue; the lowest of any product category. Many of these have had historically low profit margins, but rising costs resulted in even more diminishing returns this year. 
 
 ### Recommendations
-* **Raise prices for several products:** Pour-Over Starter Kit, Branded Ceramic Mug, Gooseneck Electric Kettle, Chemex Filters, and Minimalist Keychain should all have prices raised. The data has shown consistently strong sales for each of these products, so raising prices by 25% can help offset rising COGS.
+* **Raise prices for several products:** Pour-Over Starter Kit, Branded Ceramic Mug, Gooseneck Electric Kettle, Chemex Filters, and Minimalist Keychain should all have prices raised. The data has shown consistently strong sales for each of these products, so raising prices by 25% may help offset rising COGS.
 * **Discontinue *Logo Hoodie (Black)*:** Orders are down 35% from 2023, and have held consistently weak margins (as low as 12% in 2025). Due to weak sales and rising costs, it may be best to discontinue this product.
 
 ### Dashboard Preview
